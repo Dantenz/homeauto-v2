@@ -12,3 +12,8 @@ going for sensors that run on 24v power and generate 0-10v analogue + digital ou
 changes:
 - Remove reference to Machine Control header file
 - Change pin definitions as desired
+- Remove any references to motion/switch/lux as desired
+
+## Sensor Background
+This code was written to receive input from simple reed switches and Faradite Motion360 sensors. The lux and motion logic is coupled
+farily tightly to how this particular sensor works, but it should do the job for most other sensors that work along the same lines.
